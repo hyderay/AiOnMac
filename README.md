@@ -45,8 +45,7 @@ Tested on and supports macOS 15.1 to macOS 15.6 beta 1.
 
 ## Supported Systems
 
-- macOS 15.1 ~ macOS 15.6 beta 1 (Sonoma, Sequoia and above)
-- Apple Silicon (M1/M2/M3) and Intel
+- macOS 15.1 ~ macOS 26 beta 1 (Sequoia and above)
 
 ---
 
