@@ -5,7 +5,7 @@ Enable Apple Intelligence on China SKU Macs with a single script.
 ## Overview
 
 **AiOnMac** is a tool that allows you to unlock and enable Apple Intelligence features on Mac computers officially sold in mainland China (China SKU).  
-Tested on and supports macOS 15.1 to macOS 15.6 beta 1.
+Tested on and supports macOS 15.1 to macOS 26 beta 1.
 
 ---
 
