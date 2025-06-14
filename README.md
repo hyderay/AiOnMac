@@ -50,13 +50,6 @@ Tested on and supports macOS 15.1 to macOS 15.6 beta 1.
 
 ---
 
-## Script Download
-
-- Script address:  
-  https://raw.githubusercontent.com/hyderay/AiOnMac/refs/heads/main/fu*kApple_new.sh
-
----
-
 ## Disclaimer
 
 - This script modifies system files and may void your warranty.  
