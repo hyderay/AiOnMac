@@ -51,9 +51,6 @@ Tested on and supports macOS 15.1 to macOS 15.6 beta 1.
 —
 
 
-<img width=“827” alt=“Screenshot 2025-06-14 at 10 16 27” src=“https://github.com/user-attachments/assets/22aac919-aaf6-4c8c-90fe-b54e06de9dae” />
-
-
 ## Disclaimer
 
 - This script modifies system files and may void your warranty.  
