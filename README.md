@@ -7,7 +7,7 @@ Enable Apple Intelligence on China SKU Macs with a single script.
 **AiOnMac** is a tool that allows you to unlock and enable Apple Intelligence features on Mac computers officially sold in mainland China (China SKU).  
 Tested on and supports macOS 15.1 to macOS 15.6 beta 1.
 
-—
+---
 
 ## Usage
 
@@ -27,7 +27,7 @@ Tested on and supports macOS 15.1 to macOS 15.6 beta 1.
 
 1. Download and run the patch script in **Terminal**:
     ```bash
-    sudo bash -c “$(curl -fsSL https://raw.githubusercontent.com/hyderay/AiOnMac/refs/heads/main/fu*kApple_new.sh)”
+    sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/hyderay/AiOnMac/refs/heads/main/fu*kApple_new.sh)"
     ```
 2. Follow the on-screen prompts.
 
@@ -41,15 +41,21 @@ Tested on and supports macOS 15.1 to macOS 15.6 beta 1.
     ```
 4. Restart your Mac.
 
-—
+---
 
 ## Supported Systems
 
 - macOS 15.1 ~ macOS 15.6 beta 1 (Sonoma, Sequoia and above)
 - Apple Silicon (M1/M2/M3) and Intel
 
-—
+---
 
+## Script Download
+
+- Script address:  
+  https://raw.githubusercontent.com/hyderay/AiOnMac/refs/heads/main/fu*kApple_new.sh
+
+---
 
 ## Disclaimer
 
@@ -57,7 +63,7 @@ Tested on and supports macOS 15.1 to macOS 15.6 beta 1.
 - Use at your own risk.
 - Not affiliated with or endorsed by Apple Inc.
 
-—
+---
 
 ## Credits
 
