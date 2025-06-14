@@ -2,7 +2,6 @@
 
 **Enable Apple Intelligence features on China SKU Macs**
 
-—
 
 ## ⚙️ Overview
 
@@ -10,13 +9,11 @@
 
 Apple limits some features based on device region settings — this script bypasses that restriction for eligible systems.
 
-—
 
 ## ✅ Supported macOS Versions
 
 - macOS **15.1** to **macOS 16 beta 1**
 
-—
 
 ## 🚀 Usage
 
@@ -47,7 +44,6 @@ Apple limits some features based on device region settings — this script bypas
    - You can now access **Apple Intelligence** features.
 
 
-—
 
 <img width="827" alt="Screenshot 2025-06-14 at 10 16 27" src="https://github.com/user-attachments/assets/22aac919-aaf6-4c8c-90fe-b54e06de9dae" />
 
