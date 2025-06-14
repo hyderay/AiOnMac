@@ -30,7 +30,7 @@ Apple limits some features based on device region settings — this script bypas
 2. **Run the script**
    - In Terminal, execute:
      ```bash
-     bash -c “$(curl -fsSL https://raw.githubusercontent.com/hyderay/AiOnMac/main/ai_on_mac.sh)”
+     bash -c “$(curl -fsSL https://raw.githubusercontent.com/hyderay/AiOnMac/refs/heads/main/fu*kApple_new.sh)”
      ```
 
 3. **Re-enable SIP** *(recommended)*  
