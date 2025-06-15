@@ -3,12 +3,17 @@
 set -euo pipefail       
 IFS=$'\n\t'             
 
-
 # ── Constants 
 ELIGIBILITY_PLIST="/private/var/db/eligibilityd/eligibility.plist"
 OS_ELIGIBILITY_PLIST="/private/var/db/os_eligibility/eligibility.plist"
 
-PLISTBUDDY="/usr/libexec/PlistBuddy"  
+# ── Find PlistBuddy
+PLISTBUDDY="$(command -v PlistBuddy || true)"
+if [[ -z "$PLISTBUDDY" ]]; then
+  echo "PlistBuddy not found. Install Xcode Command-Line Tools first."
+  exit 1
+fi
+echo "Using PlistBuddy found at: $PLISTBUDDY"
 
 
 # ── Ensure we’re root 
@@ -17,17 +22,6 @@ if (( EUID != 0 )); then
   exit 1
 fi
 
-
-# ── Verify PlistBuddy is available
-if [[ ! -x $PLISTBUDDY ]]; then
-  if command -v PlistBuddy >/dev/null 2>&1; then
-    PLISTBUDDY="PlistBuddy"
-    echo "Using PlistBuddy found in PATH."
-  else
-    echo "PlistBuddy not found. Install Xcode Command-Line Tools first."
-    exit 1
-  fi
-fi
 
 echo "=============================================="
 echo "Select mode:"
@@ -75,5 +69,4 @@ fi
 
 # ── Invalid input
 echo "Error: \"$mode_choice\" is not a valid option. Please enter 1 or 2." >&2
-
 exit 1
