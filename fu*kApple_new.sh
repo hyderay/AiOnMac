@@ -8,7 +8,7 @@ ELIGIBILITY_PLIST="/private/var/db/eligibilityd/eligibility.plist"
 OS_ELIGIBILITY_PLIST="/private/var/db/os_eligibility/eligibility.plist"
 
 # ── Find PlistBuddy
-PLISTBUDDY="$(command -v PlistBuddy || true)"
+PLISTBUDDY="$(command -v /usr/libexec/PlistBuddy || true)"
 if [[ -z "$PLISTBUDDY" ]]; then
   echo "PlistBuddy not found. Install Xcode Command-Line Tools first."
   exit 1
