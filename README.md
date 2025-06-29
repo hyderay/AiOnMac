@@ -27,7 +27,7 @@ Tested on and supports macOS 15.1 to macOS 26 beta 1.
 
 1. Download and run the patch script in **Terminal**:
     ```bash
-    sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/hyderay/AiOnMac/refs/heads/main/fu*kApple_new.sh)"
+    sudo bash -c "$(curl -fsSL 'https://raw.githubusercontent.com/hyderay/AiOnMac/refs/heads/main/fu*kApple_new.sh')"
     ```
 2. Follow the on-screen prompts.
 
